@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin-container{
+    margin: 30px 140px;
+}
+.admin-controller p{
+   margin-right: 5px;
+    display: inline;
+    
+    
+}
+.return{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.account-info{
+    margin-left: 90px;
+    border-right:1px solid black ;
+    width: 300px;
+}
+.account-welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.account-management li{
+    margin-bottom: 25px;
+}
+.account{
+    display: flex;
+}
+.account-input{
+    margin-left: 100px;
+}
+/* .account-input p,input{
+   
+} */
+.account-input input[type=text]{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+.account-input input[type=submit]{
+    width: 150px;
+   margin-left: 80px;
+   height: 30px;
+   border-radius: 15px;
+   background-color: black;
+   color: whitesmoke;
+}
+.account-input input[type=submit]:hover{
+    background-color: rgb(158, 152, 152);
+}
